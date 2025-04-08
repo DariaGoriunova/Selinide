@@ -38,19 +38,5 @@ public class OrderCardDeliverTest {
                 .should(Condition.visible, Duration.ofSeconds(15))
                 .should(Condition.text("Встреча успешно забронирована на " + planningDate));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
